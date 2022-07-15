@@ -59,13 +59,7 @@ while (i < N)
     {
         max = array[i];
     }
-    i++;
-}
-
-i = 0;
-while (i < N)
-{
-    if (min > array[i])
+    else  if (min > array[i])
     {
         min = array[i];
     }
